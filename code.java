@@ -1,10 +1,18 @@
-import java.util.Scanner;
+
+
 
 public class code {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        System.out.println("Number:"+n);
-        scanner.close();
+        int[][] matrix = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        // HashMap<
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if(matrix[i][j] == 0){
+
+                }
+            }
+            System.out.println();
+            
+        }
     }
 }
